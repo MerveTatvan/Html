@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Çorlu Mühendislik Fakültesi Bilgisayar Mühendisliği</title>
+    </head>
+    <body>
+        <figure> <img src="Unknown.png" alt = "Çorlu Mühendislik Fakültesi" title="Çorlu Müh. Fak. logosu" >
+        <figcaption>Ç.M.F</figcaption></figure>
+        <h1>Bilgisayar Mühendisliği Bölümü</h1>
+        <hr style="border-color:red;width:300px">
+        <h2>HTML</h2>
+        <p>Html 5 birçok yeni özellik ve web aracını sunan 2009 yılında yayınlanmış web biçimlendirme dilidir.</p>
+        <p>Html 5 birçok tarayıcı tarafından <em> desteklenir. Mobil cihazlarla uyumludur.</em></p>
+        <br>
+        <h2>Html 5'in avantajları</h2>
+        <ul>
+            <li>Yeni etiketler-elementler</li>
+            <li>Yeni etiket özellikleri</li>
+            <li><strong>Tam CSS3 desteği</strong></li>
+            <li>Video ve Audio</li>
+            <ul>
+                <li>Flash Video</li>
+                <li>mp4. vb tipte videolar</li>
+            </ul>
+            <li>2D/3D Grafikler</li>
+            <li>Yerel depolama</li>
+            <li>Yerel SQL veritabanı</li>
+            <li><mark>Web Uygulamaları</mark></li>
+        </ul>
+
+        <h1>Konu Başlıklarımız</h1>
+        <hr>
+        <ol>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript
+
+        <li>Alt Liste</li>
+            </ol>
+            <li><p>JQuery</p></li>
+        </ol>
+        <hr>
+        <ol start="8">
+            <li>Başlangıç ayarlı numaralandırma deneme</li>
+        </ol>
+        <br>
+        <blockquate>
+
+            <p>Üst indis örneği E=mc<sup>2</sup></p>
+            <p>Alt indis örneği CO<sub>2</sub></p>
+        </blockquate>
+        <p><abbr title="Professor">Prof</abbr> Stephan Hawking is a theoretical pyhsicist and cosmologist.</p>
+        <br>
+        <pre>Ad        Soyad            İmza</pre>
+        <p>Doğru :Computer Yanlış:<s>Compiter</s><del>Compitır</del></p>
+        <br>
+        <dl>
+            İletişim Protokolleri<dt>TCP/IP</dt>
+            <dd>Bilgisayarlar arası veri iletimini düzenleyen protokoldür.</dd>
+            <dt>FTP</dt>
+            <dd>Bilgisayarlar arası dosya aktarımını düzenleyen protokoldür.</dd>
+        </dl>
+        <time>00:00:15</time>
+    </body>
+</html>

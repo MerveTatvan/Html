@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Font Ayarları</title>
+        <style>
+           #baslık1 {
+            font-size: 0.75em;
+            font-family: 'Comic Sans MS', cursive;
+            }
+
+            h2{
+                font-family: 'Shadows Into Light', cursive;
+            }
+#buyukbaslık {
+    font-size: 4em;
+}
+
+#baslık1 + p {
+    font-size: 75%;
+}
+
+h1{
+    color:green;
+    background: white;
+    opacity: 0.25;
+}
+</style>
+    </head>
+    <body>
+        <h1 id="baslık1">Sağlıklı Beslenme</h1>
+        <h2 id="baslık2">İkinci Seviye Başlık</h2>
+        <p>Bu, ikinci seviye başlık altında normal bir paragraftır.</p>
+
+        <h1 id="buyukbaslık">Büyük Başlık</h1>
+        <p>Bu, büyük başlık altında normal bir paragraftır.</p>
+    </body>
+</html>

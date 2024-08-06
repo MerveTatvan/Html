@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="tr" xml:lang="tr">
+    <head>
+        <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+        <title>SAĞLIKLI BESLENME </title>
+        <style>
+            h1{
+                color: red !important;
+                border-bottom : 1px solid red;
+            }
+            h2{
+                margin-left: 100px;
+                color:red;
+            }
+            p{
+                font-size: small;
+                font-family: sans-serif;
+                margin-left: 100px;
+            }
+            img{
+                float: right;
+                margin: 0 12px;
+                border:1px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1 style="color:green">SAĞLIKLI BESLENME</h1>
+        <p>Sağlıklı beslenme yeterli ve dengeli beslenmedir.Vücudumuzu oluşturan hücreleerin düzenli ve dengeli çalışması için besin ögelerinden yani yağlar, karbonhidratlar, proteinler, vitaminler ve minerallerden yeteri kadar almalıyız.Vücudumuzun tüm besinlere ihtiyacı vardır.Tek taraflı beslenmekyani sadece protein veya karbonhidratla beslenmek yanlıştır. </p>
+        <p>Dengeli beslenerek vitaminler,mineraller ve lifler gibi<em>en önemli besinler</em>den almış oluruz.</p>
+        <h2>Beslenme Piramidi</h2>
+        <p><img src="images.jpeg" width="410" height="350" alt="Beslenme Piramiti"/></p>
+        <p>Beslenme piramidi 5 ana besin grubunu içerir</p>
+
+        <p>Piramit en altta yer alan ve <em>sıklıkla tüketilmesi gereken</em>karbonhidratlarla başlar ve daha <em>az tüketilmesi gereken</em>gıdalara doğru gider.Bu besin grupları karbonhidratlar, mineraller, proteinler,yağ ve şekerdir.Beslenme piramidi gıdaların doğru seçimi için rehberiniz olmalı.</p>
+
+        <h2>Karbonhidratlar</h2>
+        <p>Alt grupta yer alan ve sıklıkla tüketilmesi gereken gıdalardır.</p>
+        <p>Karbonhidratlar pirinç,bulgur,makarna gibi tahıllardır</p>
+
+        <h2>Mineraller</h2>
+        <p>Sağlıklı yaşam için gerekli.Mineraller(kalsiyum,bakır,iyot,demir,çinko vb.) sebze ve meyvelerde bulunur. Hücre koruması ve sağlıklı diş,kemik,cilt yapısı için önemlidir.</p>
+        <p>Mineraller ayrıca kalp ritmi,kan basıncı,vücuttaki sıvı dengesi gibi düzenleyici fonksiyonda rol oynar. </p>
+
+        <h2>Proteinler</h2>
+        <p>Vücudun en etkili kalori yakıcı bölümü olan kas dokusunu güçlendirmek açısından çok önemlidir.Protein etle,süt ürünlerinde ve daha az olarak hububat ürünlerinde bulunmaktadır. </p>
+
+        <h2>Yağ-Şeker</h2>
+        <p>Yağ ve şeker çok az tüketilmesi gereken gıdalardır fakat A,D,E ve K vitaminleri gibi vücudumuz için önemli vitaminleri taşıma görevi yaptıklarından dolayı sağlığımız için yenilmesi çok önemlidir. Sıvı ve katı yağlar, şeker ve tatlılar bu grupta yer alır. </p>
+
+        <p>Yemek yeme alışkanlığımız zihinsel ve bedensel faaliyetlerimizi etkileyen unsurlardan biridir.Sağlıksız beslenme, düşünme ve kavrama yeteneklerinin azalmasına ve hafıza kayıplarına neden olur. Günde 8 saat uyuduğunuz halde kendinizi yorgun issediyor, bedensel, zihinsel faaliyetlerinizde çabuk yoruluyor, hafıza ve düşüncelerinizde azalma görüyorsanız mutlaka yemek yeme alışkanlığınızı gözden geçiriniz.</p>
+        
+    </body>
+</html>

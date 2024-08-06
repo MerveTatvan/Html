@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <style>
+            div.img {
+                margin: 5px;
+                padding: 5px;
+                border: 1px solid #0000ff;
+                height: auto;
+                width: auto;
+                float: left;
+                text-align: center;
+            }
+            div.img img{
+                display:inline;
+                margin: 5px;
+                border: 1px solid #ffffff;
+            }
+            div.img a:hover img{
+                border:1px solid #0000ff;
+            }
+            div.desc{
+                text-align:center;
+                font-weight: normal;
+                width: 120px;
+                margin: 5px;
+            }
+            </style>
+            </head>
+            <body>
+                <div class="img">
+                    <a target="_blank" href="resim-1.webp">
+                        <img src="resim-1.webp" alt="BirResim" width="110" height="90">
+                    </a>
+                    <div class="desc">Add a description of the image here</div>
+                </div>
+                <div class="img">
+                    <a target="_blank" href="resim-2.webp">
+                        <img src="resim-2.webp" alt="BirResim" width="110" height="90">
+                    </a>
+                    <div class="desc">Add a description of the image here</div>
+                </div>
+                <div class="img">
+                    <a target="_blank" href="resim-3.webp">
+                        <img src="resim-3.webp" alt="BirResim" width="110" height="90">
+                    </a>
+                    <div class="desc">Add a description of the image here</div>
+                </div>
+                <div class="img">
+                    <a target="_blank" href="resim-4.jpeg">
+                        <img src="resim-4.jpeg" alt="BirResim" width="110" height="90">
+                    </a>
+                    <div class="desc">Add a description of the image here</div>
+                </div>
+            </body>
+</html>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            span.red{color:red;}
+        </style>
+    </head>
+    <body>
+        <h1>My <span class="red">Important</span></h1>
+    </body>
+</html>

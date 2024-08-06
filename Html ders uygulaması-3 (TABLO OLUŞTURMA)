@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Çorlu M. F. Bilgisayar Mühendisliği </title>
+    </head>
+    <body>
+    <figure><img src="Unknown.png" alt="Çorlu Mühendislik Fakültesi">
+        <h1><strong>BİLGİSAYAR MÜHENDİSLİĞİ BÖLÜMÜ</strong></h1> 
+        <hr>
+
+        <h2>Ders 01.04.2024</h2>
+        <p style="font:Verdana, Geneva, sans-serif; font-size:14px;color: blue; text-align:center; margin-top: 70px;">
+            Bu bölümde textler üzerinde yeni tagler denendi.</p>
+            <p style="font-size: 24px; font-style: italic"> Tablo Oluşturma<hr style="border:1px;color:blue"></p>
+            <p>Örnek-1</p>
+            <table border="1" cellpadding="20" style="width:300px" bgcolor="#CCCCCC" height="400" hspace="80" border="1px">
+                <tr>
+                    <th rowspan="3">İstanbul Şubesi</th>
+                    <th>Ürün Adı</th>
+                    <th cellpadding="4"> Stok Miktarı</th>
+                    <th>Satış Miktarı</th>
+                </tr>
+                <tr>
+                    <td align="center">Defter</td>
+                    <td>89</td>
+                    <td>19</td>
+                </tr>
+            </table>
+
+            <p>Örnek-2</p>
+            <table border="1">
+                <caption>cellpadding Bu tabloda "0"dır.</caption>
+                <tr>
+                    <td>Hücre 1-1</td>
+                    <td>Hücre 1-2</td>
+                </tr>
+                <tr>
+                    <td>Hücre 2-1</td>
+                    <td>Hücre 2-2</td>
+                </tr>
+            </table> <br>
+            <table border="1" cellpadding="10">
+                <caption>Bu tabloda cellspacing "10"dır</caption>
+                <tr>
+                    <td>Hücre 1-1</td>
+                    <td>Hücre 1-2</td>
+                </tr>
+                <tr>
+                <td>Hücre 2-1</td>
+                <td>Hücre 2-2</td>
+                </tr>
+            </table>
+            <br>
+            
+            <p>Örnek-3</p>
+            <table border="1" cellspacing="0">
+                <caption>Bu tabloda cellspacing "0"dır.</caption>
+                <tr>
+                    <td>Hücre 1-1</td>
+                    <td>Hücre 1-2</td>
+                </tr>
+                <tr>
+                <td>Hücre 2-1</td>
+                <td>Hücre 2-2</td>
+                </tr>
+            </table>
+            <br>
+            <table border="1" cellspacing="10">
+                <caption>Bu tabloda cellspacing "10"dur</caption>
+                <tr>
+                    <td>Hücre 1-1</td>
+                    <td>Hücre 1-2</td>
+                </tr>
+                <tr>
+                    <td>Hücre 2-1</td>
+                    <td>Hücre 2-2</td>
+                </tr>
+            </table>
+        </body>
+</html>

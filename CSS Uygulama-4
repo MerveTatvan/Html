@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8"/>
+    <title>Menü Oluşturma</title>
+    <style>{ 
+       background: -webkit-linear-gradient(top,
+       rgba(59,103,158,1)0%,
+       rgba(43,136,217,1)50%,
+       rgba(32,124,202,1)51%,
+       rgba(125,185,232,1)100%);
+    }
+
+    ul
+    li{
+        margin:0;
+        padding:0;
+        list-style:none;
+        float:left;
+    }
+
+    ul{
+        background-webkit-linear-gradient(top,
+        rgba(59,103,158,1)0%,
+        rgba(43,136,217,1)0%,
+        rgba(32,124,202,1)51%,
+        rgba(125,185,232,1)100%);
+        .your-element {
+            height: 2em;
+            witdh: auto;
+        }
+    }
+    li{
+        position:relative;
+    }
+    li a{
+        display:block,
+        line-height:2em;
+        padding:0 1em;
+        color:white;
+        text-decoration:none;
+    }
+
+    .ustmenu li:hover>a{
+        background:-webkit-linear-gradient(top,
+        rgba(184,225,252,1)0%,
+        rgba(169,210,243,1)10%,
+        rgba(144,186,228,1)25%,
+        rgba(144,191,240,1)50%,
+        rgba(107,168,229,1)51%,
+        rgba(162,218,245,1)83%,
+        rgba(189,243,253,1)100%);
+
+        height:2em;
+        padding-top:0.3em;
+        position:relative;
+        top: -0.3em;
+        border-radius:0.3em0.3em 0 0;
+    }
+    ul.altmenu{
+        float:none;
+        background:-webkit-linear-gradient(top,
+      rgba(184,225,252,1)0%,
+      rgba(169,210,243,1)10%,
+      rgba(144,186,228,1)25%,
+      rgba(144,191,240,1)37%,
+      rgba(144,191,240,1)50%,
+      rgba(107,168,229,1)51%,
+      rgba(162,218,245,1)83%,
+      rgba(189,243,253,1)100%);
+      width:auto;
+      height:auto;
+      position:absolute;
+      top:2em;
+      left:-9000em;
+    }
+    ul.altmenu li{
+        float:none;
+    }
+    .ustmenu li:hover ul{
+        left:0;
+    }
+    ul.altmenu li a{
+        border-bottom:1px solid white,
+        padding:0.2em 1em;
+        white-space:nowrap;
+    }
+
+    ul.altmenu li:last-child a{
+        background:-webkit-linear-gradient(top,
+        rgba(59,103,158,1)0%,
+        rgba(43,136,217,1)50%,
+        rgba(32,124,202,1)51%,
+        rgba(125,185,232,1)100%);
+        height:2em;
+        padding-top:0.2em;
+        top:0;
+        border-radius:0;
+    }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul class="ustmenu">
+            <li><a href="index.html">ANA SAYFA</a></li>
+            <li>
+                <a href="urunler.html" title="bilgisayar">Bilgisayarlar</a>
+            </li>
+            <li><a href="sarf malzemeler" title="sarf malzemeler">Sarf Malzemeler</a></li>
+
+        </ul>
+        <li><a href="hakkında.html">Hakkımızda</a></li>
+        <li><a href="iletisim.html">İletişim</a></li>
+    </nav>
+</body>
+</html>

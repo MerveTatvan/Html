@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="tr" xml:lang="tr">
+
+<head>
+    <meta http-equiv="content-type" content="text/html;charset0utf-8"/>
+    <title>Sağlıklı Beslenme</title>
+    <link href="http://fonts.googleapis.com/css?family=Marko+One" rel="stylesheet">
+    <style>
+        .baslık1{*/burada .baslık1 yazarak baslık1 adında class oluşturduk artık body bölümünde bu classı kullanabiliriz*/
+      color: red !important;
+      border-bottom: 1px solid red;
+      font-family: Comic Sans, cursive;
+      text-decoration:underline;
+      text-transform:uppercase;/*class değeri baslık1 olan tüm elementlerin,tüm harfleri büyük yazı olacak */
+      opacity: .5;
+      background-image:url(img/css.images.jpeg);
+    }
+
+    .baslık2{
+        margin-left: 100px;
+        color:red;
+        font-family:Marko One;
+        text-shadow:.2em.2em.05em silver;
+        border: 4px dashed;/*kesikli çizgi halinde yazı çevrelenecek*/
+        border-color:red;
+        background-color:#B4DBE6;
+    }
+    
+    .paragraflar{
+        font-size:15px;
+        font-family: sans-serif;
+        text-indent:1.5cm;/*son paragrafıın ilk satırı 1.5cm içeriden başlicak*/ 
+        text-align:justify;/*son paragrafı iki yana yaslicak*/ 
+    }
+
+    .aralıklı{
+        line-height:3;
+    }
+
+    .resimler{
+        float:right;
+        margin:0 12px;/*üstten ve alttan 0 sağddan ve soldan 12 pixel boşluk verir*/
+        border:1px;
+    }
+
+    .vurgula{
+        background-color:red;/*proteinler başlığının altındaki kelimenin zemini değiştirecek vurgulu olacak*/ 
+    }
+
+    body{
+        background-image:url(img/css.images.jpeg);
+    }
+    </style>
+</head>
+<body>
+    <h1 class="baslık1">Sağlıklı Beslenme</h1>
+    <p>Sağlıklı beslenme yeterli ve dengeli beslenmedir.Vücudumuzu oluşturan hücreleerin düzenli ve dengeli çalışması için besin ögelerinden yani yağlar, karbonhidratlar, proteinler, vitaminler ve minerallerden yeteri kadar almalıyız.Vücudumuzun tüm besinlere ihtiyacı vardır.Tek taraflı beslenmekyani sadece protein veya karbonhidratla beslenmek yanlıştır.</p>
+        <p>Dengeli beslenerek vitaminler,mineraller ve lifler gibi<em>en önemli besinler</em>den almış oluruz</p>
+        <h2>Beslenme Piramidi</h2>
+        <p><img src="images.jpeg" width="410" height="350" alt="Beslenme Piramiti"/></p>
+        <p>Beslenme piramidi 5 ana besin grubunu içerir</p>
+
+        <p>Piramit en altta yer alan ve <em>sıklıkla tüketilmesi gereken</em>karbonhidratlarla başlar ve daha <em>az tüketilmesi gereken</em>gıdalara doğru gider.Bu besin grupları karbonhidratlar, mineraller, proteinler,yağ ve şekerdir.Beslenme piramidi gıdaların doğru seçimi için rehberiniz olmalı.</p>
+
+        <h2>Karbonhidratlar</h2>
+        <p>Alt grupta yer alan ve sıklıkla tüketilmesi gereken gıdalardır.</p>
+        <p>Karbonhidratlar pirinç,bulgur,makarna gibi tahıllardır</p>
+
+        <h2>Mineraller</h2>
+        <p>Sağlıklı yaşam için gerekli.Mineraller(kalsiyum,bakır,iyot,demir,çinko vb.) sebze ve meyvelerde bulunur. Hücre koruması ve sağlıklı diş,kemik,cilt yapısı için önemlidir.</p>
+        <p>Mineraller ayrıca kalp ritmi,kan basıncı,vücuttaki sıvı dengesi gibi düzenleyici fonksiyonda rol oynar. </p>
+
+        <h2>Proteinler</h2>
+        <p>Vücudun en etkili kalori yakıcı bölümü olan kas dokusunu güçlendirmek açısından çok önemlidir.Protein etle,süt ürünlerinde ve daha az olarak hububat ürünlerinde bulunmaktadır. </p>
+
+        <h2>Yağ-Şeker</h2>
+        <p>Yağ ve şeker çok az tüketilmesi gereken gıdalardır fakat A,D,E ve K vitaminleri gibi vücudumuz için önemli vitaminleri taşıma görevi yaptıklarından dolayı sağlığımız için yenilmesi çok önemlidir. Sıvı ve katı yağlar, şeker ve tatlılar bu grupta yer alır. </p>
+
+        <p>Yemek yeme alışkanlığımız zihinsel ve bedensel faaliyetlerimizi etkileyen unsurlardan biridir.Sağlıksız beslenme, düşünme ve kavrama yeteneklerinin azalmasına ve hafıza kayıplarına neden olur. Günde 8 saat uyuduğunuz halde kendinizi yorgun issediyor, bedensel, zihinsel faaliyetlerinizde çabuk yoruluyor, hafıza ve düşüncelerinizde azalma görüyorsanız mutlaka yemek yeme alışkanlığınızı gözden geçiriniz.</p>
+        </body>
+        </html>
+        

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <style>
+            table{
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+            th,td{
+                padding:5px;
+                text-align:left;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>TABLO OLUŞTURMA</h1>
+        <table border="2" style="background-color: aquamarine;">
+            <caption>ÜLKE NÜFUSLARI</caption>
+            <thead>
+                <tr><th>Ülke</th><th>Nüfus</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>Türkiye</td><td>82</td></tr>
+                <tr><td>Yunanistan</td><td>12</td></tr>
+                <tr><td>Bulgaristan</td><td>9</td></tr>
+                <tr><td>İspanya</td><td>26</td></tr>
+            </tbody>
+            <tfoot>
+                <tr><td colspan="2">TOPLAM NÜFUS:129</td></tr>
+                <!--colspan yan yana hücreleri birleştirir-->
+            </tfoot>
+        </table>
+    </body>
+           
+            <!---tablo biçimlendirmede <thead> tablonun ilk satırı genellikle başlıklar olur
+            <tbody> tablonun gövdesidir <tfoot> ise tablonun son satırını biçimlendirirken kullanılır. -->
+
